@@ -1,11 +1,11 @@
-import './App.css';
+import "./App.css";
+import Board from "./components/Board";
 
 function App() {
   return (
-    <div className="">
-      <header className="App-header">
-        <h1>Kanban Board</h1>
-      </header>
+    <div>
+      <h1>Kanban Board</h1>
+      <Board />
     </div>
   );
 }
